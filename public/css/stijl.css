@@ -233,7 +233,7 @@ a {
 }
 
 .namen3 {
-  border: 0.01rem solid #F08149;
+  border: 0.03rem solid #F08149;
 }
 
 .pijl {
@@ -307,19 +307,19 @@ input[type=text], select {
 }
 
 .namen2.spelgreen {
-  border: 0.01rem solid #8DC046;
+  border: 0.03rem solid #8DC046;
 }
 
 .namen2.spelblue {
-  border: 0.01rem solid #2B75BB;
+  border: 0.03rem solid #2B75BB;
 }
 
 .namen2.spelorange {
-  border: 0.01rem solid #F08149;
+  border: 0.03rem solid #F08149;
 }
 
 .namen2.spelred {
-  border: 0.01rem solid #E6274A;
+  border: 0.03rem solid #E6274A;
 }
 
 .spel:nth-child(4n),.spel.spelgreen {
@@ -401,7 +401,7 @@ nav.home {
 }
 
 input[type=text], textarea {
-  border: 0.01rem solid lightgrey;
+  border: 0.03rem solid lightgrey;
   border-radius: 0.25rem;
   margin: 0.5rem 0 1.2rem;
 }
