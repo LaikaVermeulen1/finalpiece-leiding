@@ -1,0 +1,53 @@
+{
+  "namen": [{
+    "naam": "Jonas Vermeulen",
+    "rating": "happy",
+    "rating2": "neutral2",
+    "leukste": "Het voetballen met de pompoen",
+    "minste": "Tikkertje",
+    "andere": "/",
+    "favoriet1": "Voetballen",
+    "favoriet2": "Vuile spelen",
+    "favoriet3": "Dropping"
+  },{
+    "naam": "Sarah Van Osselaer",
+    "rating": "super-happy",
+    "rating2": "happy2",
+    "leukste": "Het schilderen van de pompoenen",
+    "minste": "Het voetballen met de pompen",
+    "andere": "Ik vond het heel leuk dat de leiding meespeelde.",
+    "favoriet1": "Knustelen",
+    "favoriet2": "Pyjamaparty",
+    "favoriet3": "Tussen vier vuren"
+  },{
+    "naam": "Celine Goossens",
+    "rating": "super-happy",
+    "rating2": "super-happy2",
+    "leukste": "Wanneer we de pompoenen mochten uitsnijden",
+    "minste": "Tikkertje",
+    "andere": "/",
+    "favoriet1": "Dropping",
+    "favoriet2": "Rechtendoortocht",
+    "favoriet3": "Vuile spelen"
+  },{
+    "naam": "Kyara Bracke",
+    "rating": "happy",
+    "rating2": "neutral2",
+    "leukste": "Het knustelen met de pompoen",
+    "minste": "Pompoenvoetbal",
+    "andere": "Heb ik niet",
+    "favoriet1": "Bowlingen",
+    "favoriet2": "Knustelen",
+    "favoriet3": "Pisquiz"
+  },{
+    "naam": "Michiel Heyrman",
+    "rating": "super-happy",
+    "rating2": "happy2",
+    "leukste": "Het voetballen",
+    "minste": "Knustelen met de pompoen",
+    "andere": "/",
+    "favoriet1": "Vuile spelen",
+    "favoriet2": "Voetbaltornooi",
+    "favoriet3": "Tussen vier vuren"
+  }]
+}

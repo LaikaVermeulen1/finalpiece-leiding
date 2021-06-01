@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl-be" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalpiece</title>
+
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="/css/stijl.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body class="<%=bodyclass%>">
+    <nav class="home">
+        <h3 class="page-title"><%=title%><h3>
+    </nav>
+
+<div class="home">
+  <a href="/activiteitbekijken">
+    <div class="activiteitbekijken">
+      <h4>Activiteiten bekijken</h4>
+      <object data="/images/bekijken.svg" width="100px"></object>
+    </div>
+  </a>
+
+  <a href="/activiteittoevoegen">
+    <div class="activiteittoevoegen">
+      <h4>Activiteit toevoegen</h4>
+      <object data="/images/activiteit.svg" width="100px"></object>
+    </div>
+  </a>
+
+  <a href="/favorietenbekijken">
+    <div class="favorieten">
+      <h4>Favorieten bekijken</h4>
+      <object data="/images/favorieten.svg" width="100px"></object>
+    </div>
+  </a>
+
+  <a href="/spelletjes">
+    <div class="spelletjes">
+      <h4>Spelletjes</h4>
+      <object data="/images/spelletjes.svg" width="100px"></object>
+    </div>
+  </a>
+
+  <a href="/"><button type="button" name="button">Afmelden</button></a>
+</div>
+<%- include("footer"); -%>

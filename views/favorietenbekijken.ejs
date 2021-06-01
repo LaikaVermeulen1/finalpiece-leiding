@@ -1,0 +1,13 @@
+<%- include("header"); -%>
+<div class="namen">
+  <% for (let i=0; i<kinderen.length; i++) { %>
+    <a href="/favorietenkind/<%- i%>">
+      <div class="namen3">
+        <p>  <%- kinderen[i].naam %> </p>
+        <p class="pijl">▶</p>
+      </div>
+    </a>
+  <% } // close forloop %>
+</div>
+
+<%- include("footer"); -%>

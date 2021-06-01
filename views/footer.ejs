@@ -1,0 +1,14 @@
+<div class="navigatiebalk">
+  <nav>
+    <ul>
+      <li><a <% if (title == "home") { %>class="activeyellow"<% } %> href="/home"> <%- include("navigatie/home");-%></a></li>
+      <li><a <% if (title == "activiteiten bekijken") { %>class="activered"<% } %> href="/activiteitbekijken"> <%- include("navigatie/bekijken");-%></a></li>
+      <li><a <% if (title == "activiteit toevoegen") { %>class="activeblue"<% } %> href="/activiteittoevoegen"> <%- include("navigatie/toevoegen");-%> </a></li>
+      <li><a <% if (title == "favorieten bekijken") { %>class="activeorange"<% } %> href="/favorietenbekijken"><%- include("navigatie/favorieten");-%></a></li>
+      <li><a <% if (title == "spelletjes" || title == "spel toevoegen" || title == "speluitleg") { %>class="activegreen"<% } %> href="/spelletjes"><%- include("navigatie/spelletjes");-%></a></li>
+    </ul>
+  </nav>
+</div>
+
+</body>
+</html>

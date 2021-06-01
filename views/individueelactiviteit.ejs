@@ -1,0 +1,20 @@
+<%- include("header"); -%>
+
+    <div class="spel spel<%=color%>">
+      <h3><%=spel.titel %></h3>
+        <span><%=spel.datum %></span>
+      <p class="leeftijd"><%=spel.leeftijd %></p>
+    </div>
+
+    <div class="namen">
+      <% for (let i=0; i<kinderen.length; i++) { %>
+        <a href="/evaluatiekind/<%- spelid%>/<%- i%>">
+          <div class="namen2 spel<%=color%>">
+            <p>  <%- kinderen[i].naam %> </p>
+            <p class="pijl">▶</p>
+          </div>
+        </a>
+      <% } // close forloop %>
+    </div>
+    <script src="/js/script.js"></script>
+<%- include("footer"); -%>
